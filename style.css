@@ -13,8 +13,29 @@ body{
     margin-right:15px;
 }
 
+.nav-item2{
+    text-decoration: none;
+    color:black;
+    margin-right:5px;
+}
+
 .nav-item:hover{
     text-decoration: underline;
+}
+
+.nav-item2:hover{
+    text-decoration: underline;
+}
+
+.menu-icon{
+    cursor: pointer;
+   background-color: transparent;
+   border-radius: 50%;
+   padding: 15px;
+}
+
+.menu-icon:hover{
+    background-color:  #e6e6e6;
 }
 
 .main{
@@ -23,7 +44,7 @@ body{
 }
 
 .input-area{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .input-box{
@@ -33,6 +54,7 @@ body{
     border: 1px solid #dfe1e5;
     padding-left: 50px;
     padding-right: 50px;
+    box-shadow:1px 1px 3px 2px #e6e6e6;
 }
 
 .search-icon{
@@ -43,7 +65,19 @@ body{
 
 .mic-icon{
     position: relative;
-    right:40px;
+    right:90px;
+    color:#9aa0a6;
+}
+
+.keyboard-icon{
+    position: relative;
+    right: 100px;
+    color:#9aa0a6;
+}
+
+.camera-icon{
+    position: relative;
+    right: 80px;
     color:#9aa0a6;
 }
 
@@ -60,6 +94,7 @@ body{
     font-family: arial,sans-serif;
     padding:0 16px;
     margin: 11px 4px;
+    cursor: pointer;
 }
 
 .button-style:hover{
